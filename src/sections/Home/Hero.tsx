@@ -13,6 +13,84 @@ import {
 import { IconRocket } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
 
+const HeroSection = () => {
+  const { classes } = useStyles();
+
+  return (
+    <div className={classes.wrapper}>
+      <Overlay color="#000" opacity={0.65} zIndex={1} />
+
+      <div className={classes.inner}>
+        <Container>
+          <Stack spacing="xl">
+            <Center>
+              <Group spacing={4} className={classes.badge}>
+                <IconRocket stroke={1.5} />
+                <Text transform="uppercase">Make it Happen</Text>
+              </Group>
+            </Center>
+            <Title className={classes.title}>
+              Protect lives{" "}
+              <Text
+                component="span"
+                inherit
+                variant="gradient"
+                gradient={{
+                  from: "#ee2324",
+                  to: "#fcb040",
+                }}
+              >
+                uphold dignity
+              </Text>{" "}
+              and{" "}
+              <Text
+                component="span"
+                inherit
+                variant="gradient"
+                gradient={{
+                  from: "#00aeef",
+                  to: "#00a650",
+                }}
+              >
+                support those most at risk.
+              </Text>
+            </Title>
+            <Text size="lg" className={classes.description}>
+              Join our mission to ensure safety, rights, and dignity for all.
+              Together, we can make a meaningful impact in the lives of
+              crisis-affected communities.
+            </Text>
+          </Stack>
+        </Container>
+
+        <div className={classes.controls}>
+          <Button
+            className={classes.control}
+            variant="white"
+            size="lg"
+            component={Link}
+            to="/create-campaign"
+            color="red"
+          >
+            View Field Activities
+          </Button>
+          <Button
+            className={classes.control}
+            variant="white"
+            size="lg"
+            component={Link}
+            to="/campaigns"
+            color="blue"
+          >
+            Browse Reports & Tools
+          </Button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default HeroSection;
 const useStyles = createStyles((theme) => ({
   wrapper: {
     position: "relative",
@@ -132,82 +210,3 @@ const useStyles = createStyles((theme) => ({
     fontWeight: 500,
   },
 }));
-
-const HeroSection = () => {
-  const { classes, theme } = useStyles();
-
-  return (
-    <div className={classes.wrapper}>
-      <Overlay color="#000" opacity={0.65} zIndex={1} />
-
-      <div className={classes.inner}>
-        <Container>
-          <Stack spacing="xl">
-            <Center>
-              <Group spacing={4} className={classes.badge}>
-                <IconRocket stroke={1.5} />
-                <Text transform="uppercase">Make it Happen</Text>
-              </Group>
-            </Center>
-            <Title className={classes.title}>
-              Protect lives{" "}
-              <Text
-                component="span"
-                inherit
-                variant="gradient"
-                gradient={{
-                  from: "#ee2324",
-                  to: "#fcb040",
-                }}
-              >
-                uphold dignity
-              </Text>{" "}
-              and{" "}
-              <Text
-                component="span"
-                inherit
-                variant="gradient"
-                gradient={{
-                  from: "#00aeef",
-                  to: "#00a650",
-                }}
-              >
-                support those most at risk.
-              </Text>
-            </Title>
-            <Text size="lg" className={classes.description}>
-              Join our mission to ensure safety, rights, and dignity for all.
-              Together, we can make a meaningful impact in the lives of
-              crisis-affected communities.
-            </Text>
-          </Stack>
-        </Container>
-
-        <div className={classes.controls}>
-          <Button
-            className={classes.control}
-            variant="white"
-            size="lg"
-            component={Link}
-            to="/create-campaign"
-            color="red"
-          >
-            View Field Activities
-          </Button>
-          <Button
-            className={classes.control}
-            variant="white"
-            size="lg"
-            component={Link}
-            to="/campaigns"
-            color="blue"
-          >
-            Browse Reports & Tools
-          </Button>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default HeroSection;
