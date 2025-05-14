@@ -1,59 +1,40 @@
 {
   "data": [
     {
-      "title": "Fundraisers for",
+      "title": "About the Cluster",
       "links": [
         {
-          "label": "Medical",
+          "label": "Overview",
           "link": "#"
         },
         {
-          "label": "Emergency",
+          "label": "Areas of Responsibility",
           "link": "#"
         },
         {
-          "label": "Environment",
+          "label": "Coordination Structure",
           "link": "#"
         },
         {
-          "label": "Nonprofit",
-          "link": "#"
-        },
-        {
-          "label": "Crisis Relief",
-          "link": "#"
-        },
-        {
-          "label": "Film & Videos",
+          "label": "Cluster Contacts",
           "link": "#"
         }
       ]
     },
     {
-      "title": "Learn more",
+      "title": "Field Operations",
       "links": [
         {
-          "label": "How CrowdUp Works",
+          "label": "Field Operations",
           "link": "#"
         },
         {
-          "label": "Why CrowdUp",
+          "label": "Protection Monitoring Reports",
           "link": "#"
         },
+
         {
-          "label": "Frequently Asked Questions",
-          "link": "#"
-        },
-        {
-          "label": "Success Stories",
-          "link": "#"
-        },
-        {
-          "label": "Supported Countries",
-          "link": "#"
-        },
-        {
-          "label": "Charity Fundraising",
+          "label": "Humanitarian Updates",
           "link": "#"
         }
       ]
@@ -62,27 +43,19 @@
       "title": "Resources",
       "links": [
         {
-          "label": "What is crowdfunding?",
+          "label": "Protection Tools & Guidelines",
           "link": "#"
         },
         {
-          "label": "Help center",
+          "label": "About the Global/Local Cluster",
           "link": "#"
         },
         {
-          "label": "Blog",
+          "label": "Join the Cluster / Get Involved",
           "link": "#"
         },
         {
-          "label": "CrowdUp Stories",
-          "link": "#"
-        },
-        {
-          "label": "Careers",
-          "link": "#"
-        },
-        {
-          "label": "About",
+          "label": "News & Advocacy",
           "link": "#"
         }
       ]
