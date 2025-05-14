@@ -276,7 +276,8 @@ const LandingNavbar = ({ compressed }: IProps) => {
             >
               <Button
                 component={Link}
-                to="/how-it-works"
+                // to="/how-it-works"
+                to="#"
                 className={classes.link}
                 {...buttonProps}
               >
@@ -337,7 +338,8 @@ const LandingNavbar = ({ compressed }: IProps) => {
               </Button>
               <Button
                 component={Link}
-                to="/create-campaign"
+                // to="/create-campaign"
+                to="#"
                 className={classes.link}
                 {...buttonProps}
               >
@@ -345,7 +347,8 @@ const LandingNavbar = ({ compressed }: IProps) => {
               </Button>
               <Button
                 component={Link}
-                to="/dashboard"
+                // to="/dashboard"
+                to="#"
                 className={classes.link}
                 {...buttonProps}
               >
