@@ -156,8 +156,8 @@ const HeroSection = () => {
                 inherit
                 variant="gradient"
                 gradient={{
-                  from: theme.colors.lime[5],
-                  to: theme.colors.green[4],
+                  from: "#ee2324",
+                  to: "#fcb040",
                 }}
               >
                 uphold dignity
@@ -168,8 +168,8 @@ const HeroSection = () => {
                 inherit
                 variant="gradient"
                 gradient={{
-                  from: theme.colors.green[4],
-                  to: theme.colors.lime[5],
+                  from: "#00aeef",
+                  to: "#00a650",
                 }}
               >
                 support those most at risk.
